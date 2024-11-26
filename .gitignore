@@ -3,7 +3,6 @@ ipcache
 *.dcp
 *.cache
 *.data
-*.xpr
 *.log
 *.bld
 *.chk
@@ -94,7 +93,6 @@ _vmake
 *.qtl
 *.xpe
 *.gen*
-*.xsa
 *.pdi
 library/**/bd/bd.tcl
 *.syn.smsg
