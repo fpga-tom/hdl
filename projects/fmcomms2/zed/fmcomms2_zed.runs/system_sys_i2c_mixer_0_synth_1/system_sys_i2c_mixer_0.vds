@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.2 (64-bit)
+# SW Build 5164865 on Thu Sep  5 14:36:28 MDT 2024
+# IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+# SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+# Start of session at: Tue Nov 26 12:40:29 2024
+# Process ID: 515745
+# Current directory: /home/tomas/src/dab/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_sys_i2c_mixer_0_synth_1
+# Command line: vivado -log system_sys_i2c_mixer_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_sys_i2c_mixer_0.tcl
+# Log file: /home/tomas/src/dab/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_sys_i2c_mixer_0_synth_1/system_sys_i2c_mixer_0.vds
+# Journal file: /home/tomas/src/dab/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_sys_i2c_mixer_0_synth_1/vivado.jou
+# Running On        :debian
+# Platform          :Debian
+# Operating System  :Debian GNU/Linux 12 (bookworm)
+# Processor Detail  :Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+# CPU Frequency     :4324.822 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :50424 MB
+# Swap memory       :0 MB
+# Total Virtual     :50424 MB
+# Available Virtual :38148 MB
+#-----------------------------------------------------------
+source system_sys_i2c_mixer_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1375.113 ; gain = 15.898 ; free physical = 25704 ; free virtual = 34539
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/tomas/src/dab/hdl/library'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/tomas/Xilinx/Vivado/2024.1/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: system_sys_i2c_mixer_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 7efd7f24a2fb0da2 to dir: /home/tomas/src/dab/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_sys_i2c_mixer_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/tomas/src/dab/hdl/ipcache/7/e/7efd7f24a2fb0da2/system_sys_i2c_mixer_0.dcp to /home/tomas/src/dab/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_sys_i2c_mixer_0_synth_1/system_sys_i2c_mixer_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/tomas/src/dab/hdl/ipcache/7/e/7efd7f24a2fb0da2/system_sys_i2c_mixer_0_stub.vhdl to /home/tomas/src/dab/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_sys_i2c_mixer_0_synth_1/system_sys_i2c_mixer_0_stub.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/tomas/src/dab/hdl/ipcache/7/e/7efd7f24a2fb0da2/system_sys_i2c_mixer_0_stub.v to /home/tomas/src/dab/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_sys_i2c_mixer_0_synth_1/system_sys_i2c_mixer_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/tomas/src/dab/hdl/ipcache/7/e/7efd7f24a2fb0da2/system_sys_i2c_mixer_0_sim_netlist.vhdl to /home/tomas/src/dab/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_sys_i2c_mixer_0_synth_1/system_sys_i2c_mixer_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/tomas/src/dab/hdl/ipcache/7/e/7efd7f24a2fb0da2/system_sys_i2c_mixer_0_sim_netlist.v to /home/tomas/src/dab/hdl/projects/fmcomms2/zed/fmcomms2_zed.runs/system_sys_i2c_mixer_0_synth_1/system_sys_i2c_mixer_0_sim_netlist.v.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP system_sys_i2c_mixer_0, cache-ID = 7efd7f24a2fb0da2.
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 26 12:40:38 2024...
