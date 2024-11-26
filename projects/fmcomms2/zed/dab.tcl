@@ -4,7 +4,7 @@ update_compile_order -fileset sources_1
 open_bd_design {$WORKSPACE/hdl/projects/fmcomms2/zed/fmcomms2_zed.srcs/sources_1/bd/system/system.bd}
 set_property  ip_repo_paths  {$WORKSPACE/hdl/library $WORKSPACE/hls/hls_dab/hls/impl $WORKSPACE/hls/hls_dab/hls_dab/hls/impl/ip} [current_project]
 update_ip_catalog
-set_property  ip_repo_paths  {$WORKSPACE/hdl/library $WORKSPACE/hls/hls_dab/hls_dab/hls/impl/ip} [current_project]
+set_property  ip_repo_paths  {$WORKSPACE/hdl/library $WORKSPACE/hls_dab/hls/impl/ip} [current_project]
 update_ip_catalog
 startgroup
 create_bd_cell -type ip -vlnv xilinx.com:hls:rx_samples:1.0 rx_samples_0
