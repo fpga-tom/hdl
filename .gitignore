@@ -44,9 +44,6 @@ _xmsgs
 component.xml
 *.jou
 xgui
-*.runs
-*.srcs
-*.sdk
 .Xil
 *_INFO.txt
 *_dump.txt
